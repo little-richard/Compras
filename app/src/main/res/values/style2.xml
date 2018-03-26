@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Editextcolor">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#c4c4c4</item>
+        <item name="colorControlHighlight">@color/accent_material_light</item>
+    </style>
+</resources>

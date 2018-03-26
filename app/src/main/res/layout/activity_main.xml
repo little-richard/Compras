@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.ricardomendes.compras.MainActivity">
+
+    <ImageView
+        android:id="@+id/comprasimg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/compras"
+        app:layout_constraintBottom_toTopOf="@id/btCalcular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btCalcular"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_custom1"
+        android:src="@drawable/btn_click"
+        app:layout_constraintBottom_toTopOf="@id/txtWelcome"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/comprasimg" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/msgMain"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btCalcular" />
+</android.support.constraint.ConstraintLayout>

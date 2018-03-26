@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Compras</string>
+    <string name="btCalcular">Calcular</string>
+    <string name="msgMain">Seja bem vindo! Descubra a melhor opção de pagamento para você.</string>
+    <string name="cliqueAq">Calcular</string>
+    <string name="avista">À Vista</string>
+    <string name="aprazo">A Prazo</string>
+    <string name="desconto">Desconto</string>
+    <string name="qtdeparcelas">Parcelas</string>
+    <string name="juros">Juros</string>
+    <string name="valorCompra">Valor da compra (R$)</string>
+</resources>
